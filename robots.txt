@@ -1,0 +1,8 @@
+# robots.txt for https://www.leonbakadorov.com/
+
+User-agent: *
+Allow: /
+
+Host: https://www.leonbakadorov.com/
+
+Sitemap: https://www.leonbakadorov.com/sitemap.xml
