@@ -1,9 +1,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
                         <loc>https://www.leonbakadorov.com/</loc>
                     </url><url>
+                        <loc>https://www.leonbakadorov.com/about/</loc>
+                    </url><url>
                         <loc>https://www.leonbakadorov.com/case/</loc>
                     </url><url>
                         <loc>https://www.leonbakadorov.com/legal/</loc>
+                    </url><url>
+                        <loc>https://www.leonbakadorov.com/order/</loc>
                     </url><url>
                         <loc>https://www.leonbakadorov.com/case/patek/</loc>
                     </url><url>
@@ -33,8 +37,6 @@
                     </url><url>
                         <loc>https://www.leonbakadorov.com/case/applications/</loc>
                     </url><url>
-                        <loc>https://www.leonbakadorov.com/case/case/</loc>
-                    </url><url>
                         <loc>https://www.leonbakadorov.com/about/order/</loc>
                     </url><url>
                         <loc>https://www.leonbakadorov.com/about/philosophy/</loc>
@@ -53,10 +55,6 @@
                     </url><url>
                         <loc>https://www.leonbakadorov.com/about/contact/</loc>
                     </url><url>
-                        <loc>https://www.leonbakadorov.com/about/about/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/order/order/</loc>
-                    </url><url>
                         <loc>https://www.leonbakadorov.com/order/apps/</loc>
                     </url><url>
                         <loc>https://www.leonbakadorov.com/order/design/</loc>
@@ -74,8 +72,6 @@
                         <loc>https://www.leonbakadorov.com/legal/privacy/</loc>
                     </url><url>
                         <loc>https://www.leonbakadorov.com/legal/cookie/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/legal/legal/</loc>
                     </url><url>
                         <loc>https://www.leonbakadorov.com/legal/support/</loc>
                     </url></urlset>

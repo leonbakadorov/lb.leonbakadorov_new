@@ -1105,7 +1105,112 @@
 
 </script>
 
-<main>
+<style>
+    .main {
+        min-height: 140px;
+        padding: 136px 0 84px;
+    }
+
+    .main-container {
+
+        padding: 0 6.25%;
+        box-sizing: content-box;
+        font-size: 17px;
+        letter-spacing: .01em;
+        line-height: 1.42;
+        color: var(--gray-text-color);
+        white-space: normal;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 735px) {
+        .main-container {
+            max-width: 816px;
+            padding: 0 40px;
+        }
+    }
+
+    .main h1,
+    .main h2,
+    .main h3,
+    .main h4,
+    .main p,
+    .main ul,
+    .main ol,
+    .main li,
+    .main a,
+    .main strong,
+    .main center {
+        font-size: 19px;
+        line-height: 1.42;
+        color: var(--gray-text-color);
+    }
+
+    .main a {
+        color: #0077ec;
+    }
+
+    .main strong {
+        color: var(--black-text-color);
+    }
+
+    .main h1, .main h2, .main h3 {
+        color: var(--black-text-color);
+        line-height: 1.2;
+        margin: 52px 0 20px;
+    }
+
+    .main h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 52px;
+    }
+
+    @media (min-width: 735px) {
+        .main h1 {
+            font-size: 46px;
+        }
+    }
+
+    .main h2 {
+        font-size: 24px;
+    }
+
+    .main h3 {
+        font-size: 20px;
+    }
+
+    .main h4 {
+        color: var(--black-text-color);
+        font-size: 13px;
+        text-transform: uppercase;
+        margin: 20px 0 8px;
+        letter-spacing: .04em;
+    }
+
+    .main p {
+        margin-bottom: 32px;
+    }
+
+    .main li {
+        list-style: disc;
+        margin-left: 16px;
+    }
+
+    .main ol li {
+        list-style: decimal;
+
+    }
+
+    .main div {
+        margin-bottom: 20px;
+    }
+
+    .main section {
+        margin: 84px 0;
+    }
+</style><main class="main">
+        <main>
     <style>
         .subnav-cta-button {
             /*background: #EBCA98;*/
@@ -1464,7 +1569,8 @@
         background-color: transparent !important;
         border-top: solid 0.5px rgba(0, 0, 0, .12);
     }
-</style><script>
+</style>
+</main><script>
     // Функция, которая определяет, виден ли хотя бы кусочек элемента на экране
     function isPartiallyInViewport(element) {
         const rect = element.getBoundingClientRect();
@@ -1874,8 +1980,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f273">
-        <label class="footer-order-label" for="footer-order-66d492824f273">
+               id="footer-order-66d5ef21baf3e">
+        <label class="footer-order-label" for="footer-order-66d5ef21baf3e">
             <h3 class="footer-order-title">Приложение iOS</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">У&nbsp;вас есть замечательная идея для&nbsp;мобильного приложения? Давайте сделаем ее&nbsp;реальностью. Разработка мобильного приложения для&nbsp;устройств на&nbsp;iOS поможет вам привлечь огромное количество пользователей, ведь iPhone и&nbsp;iPad популярны как никогда. Сделайте первый шаг к&nbsp;успеху и&nbsp;дайте вашей идее шанс на&nbsp;процветание.</div>
@@ -1888,8 +1994,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f2a8">
-        <label class="footer-order-label" for="footer-order-66d492824f2a8">
+               id="footer-order-66d5ef21baf51">
+        <label class="footer-order-label" for="footer-order-66d5ef21baf51">
             <h3 class="footer-order-title">Программное обеспечение</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Автоматизируйте бизнес-процессы и&nbsp;повысьте эффективность вашей компании. Мы&nbsp;создадим настольное или&nbsp;веб-приложение, которое решит ваши задачи и&nbsp;упростит вашу работу. Не&nbsp;упустите шанс оптимизировать свой бизнес и&nbsp;увеличить прибыль.</div>
@@ -1902,8 +2008,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f2cd">
-        <label class="footer-order-label" for="footer-order-66d492824f2cd">
+               id="footer-order-66d5ef21baf61">
+        <label class="footer-order-label" for="footer-order-66d5ef21baf61">
             <h3 class="footer-order-title">Корпоративный сайт</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Ваша компания заслуживает внимания в&nbsp;интернете. Мы&nbsp;создадим уникальный корпоративный сайт, который поможет вам эффективно взаимодействовать с&nbsp;клиентами и&nbsp;партнерами. Приведите ваш бизнес на&nbsp;новый уровень с&nbsp;профессиональным веб-присутствием.</div>
@@ -1916,8 +2022,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f2ec">
-        <label class="footer-order-label" for="footer-order-66d492824f2ec">
+               id="footer-order-66d5ef21baf72">
+        <label class="footer-order-label" for="footer-order-66d5ef21baf72">
             <h3 class="footer-order-title">PWA приложение</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Хотите, чтобы ваше приложение было доступно на&nbsp;всех устройствах, без&nbsp;необходимости установки? Разработаем прогрессивное веб-приложение (PWA), которое обеспечит высокую производительность и&nbsp;доступность. Сделайте вашу аудиторию счастливой и&nbsp;удивите их&nbsp;удобством.</div>
@@ -1930,8 +2036,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f2ff">
-        <label class="footer-order-label" for="footer-order-66d492824f2ff">
+               id="footer-order-66d5ef21baf84">
+        <label class="footer-order-label" for="footer-order-66d5ef21baf84">
             <h3 class="footer-order-title">Веб-приложение</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Онлайн-платформа с&nbsp;богатыми возможностями - это&nbsp;то, что&nbsp;сделает ваш бизнес более гибким и&nbsp;конкурентоспособным. Независимо от&nbsp;вашей отрасли, мы&nbsp;создадим веб-приложение, которое поможет вам эффективно взаимодействовать с&nbsp;клиентами и&nbsp;партнерами.</div>
@@ -1944,8 +2050,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f31b">
-        <label class="footer-order-label" for="footer-order-66d492824f31b">
+               id="footer-order-66d5ef21baf98">
+        <label class="footer-order-label" for="footer-order-66d5ef21baf98">
             <h3 class="footer-order-title">Лендинг Пейдж</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">У&nbsp;вас есть продукт или&nbsp;услуга, которые заслуживают внимания? Давайте сделаем лендинг-страницу, которая заставит пользователей действовать. Продвигайте свой продукт с&nbsp;помощью продающей страницы и&nbsp;увеличьте конверсию.</div>
@@ -1958,8 +2064,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f329">
-        <label class="footer-order-label" for="footer-order-66d492824f329">
+               id="footer-order-66d5ef21bafa6">
+        <label class="footer-order-label" for="footer-order-66d5ef21bafa6">
             <h3 class="footer-order-title">Интернет-магазин</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Поднимите свой бизнес на&nbsp;новый уровень с&nbsp;онлайн-магазином. Создание электронного магазина позволит вам привлечь онлайн-покупателей и&nbsp;увеличить продажи, предоставив вам возможность заработать больше.</div>
@@ -1972,8 +2078,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f338">
-        <label class="footer-order-label" for="footer-order-66d492824f338">
+               id="footer-order-66d5ef21bafb3">
+        <label class="footer-order-label" for="footer-order-66d5ef21bafb3">
             <h3 class="footer-order-title">Социальная сеть</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создайте собственное сообщество и&nbsp;обеспечьте пользователям место для&nbsp;общения и&nbsp;взаимодействия. Разработка платформы для&nbsp;социальных взаимодействий поможет вам создать и&nbsp;развивать свое сообщество.</div>
@@ -1986,8 +2092,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f346">
-        <label class="footer-order-label" for="footer-order-66d492824f346">
+               id="footer-order-66d5ef21bafc0">
+        <label class="footer-order-label" for="footer-order-66d5ef21bafc0">
             <h3 class="footer-order-title">Собственная CMS</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание индивидуальной системы управления контентом (CMS) специально для&nbsp;вашего веб-сайта. Это&nbsp;позволяет полностью адаптировать CMS под&nbsp;ваши уникальные потребности и&nbsp;требования.</div>
@@ -2000,8 +2106,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f352">
-        <label class="footer-order-label" for="footer-order-66d492824f352">
+               id="footer-order-66d5ef21bafcc">
+        <label class="footer-order-label" for="footer-order-66d5ef21bafcc">
             <h3 class="footer-order-title">Система RFM-анализа</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание системы RFM-анализа, которая поможет вашей компании оптимизировать взаимодействие с&nbsp;клиентами на&nbsp;основе их&nbsp;истории покупок и&nbsp;активности.</div>
@@ -2014,8 +2120,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f360">
-        <label class="footer-order-label" for="footer-order-66d492824f360">
+               id="footer-order-66d5ef21bafda">
+        <label class="footer-order-label" for="footer-order-66d5ef21bafda">
             <h3 class="footer-order-title">Сайт знакомств</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Помогите людям найти свою вторую половинку. Создание онлайн-ресурса для&nbsp;знакомств и&nbsp;общения поможет собрать людей с&nbsp;общими интересами и&nbsp;желаниями. Дайте людям шанс на&nbsp;счастье.</div>
@@ -2028,8 +2134,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f36e">
-        <label class="footer-order-label" for="footer-order-66d492824f36e">
+               id="footer-order-66d5ef21baff1">
+        <label class="footer-order-label" for="footer-order-66d5ef21baff1">
             <h3 class="footer-order-title">Портал</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создайте центр для&nbsp;доступа к&nbsp;информации и&nbsp;сервисам. Разработка веб-портала предоставит пользователям удобный способ находить всю необходимую информацию и&nbsp;услуги на&nbsp;одной платформе.</div>
@@ -2042,8 +2148,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f37b">
-        <label class="footer-order-label" for="footer-order-66d492824f37b">
+               id="footer-order-66d5ef21baffd">
+        <label class="footer-order-label" for="footer-order-66d5ef21baffd">
             <h3 class="footer-order-title">Сайт-визитка</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Ваша история и&nbsp;информация заслуживают внимания. Создание компактного сайта-визитки поможет вам представить себя или&nbsp;вашу компанию в&nbsp;интернете и&nbsp;увеличит вашу видимость.</div>
@@ -2056,8 +2162,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f389">
-        <label class="footer-order-label" for="footer-order-66d492824f389">
+               id="footer-order-66d5ef21bb009">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb009">
             <h3 class="footer-order-title">Блог</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Публикуйте вашу информацию и&nbsp;контент на&nbsp;платформе, которая привлечет аудиторию. Создание блога позволит вам делиться знанием и&nbsp;информацией, а&nbsp;также взаимодействовать с&nbsp;вашей аудиторией.</div>
@@ -2179,8 +2285,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f3a6">
-        <label class="footer-order-label" for="footer-order-66d492824f3a6">
+               id="footer-order-66d5ef21bb02b">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb02b">
             <h3 class="footer-order-title">Дизайн приложения</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Приложение станет популярным, если оно выглядит красиво и&nbsp;удобно. Наши дизайнеры создадут визуально привлекательный и&nbsp;интуитивно понятный дизайн для&nbsp;вашего приложения, делая его&nbsp;более привлекательным для&nbsp;пользователей.</div>
@@ -2193,8 +2299,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f3b3">
-        <label class="footer-order-label" for="footer-order-66d492824f3b3">
+               id="footer-order-66d5ef21bb038">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb038">
             <h3 class="footer-order-title">Логотип</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Логотип - это&nbsp;визитная карточка вашего бренда. Мы&nbsp;разработаем уникальный и&nbsp;запоминающийся логотип, который поможет вам выделиться среди конкурентов и&nbsp;укрепить вашу узнаваемость.</div>
@@ -2207,8 +2313,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f3c1">
-        <label class="footer-order-label" for="footer-order-66d492824f3c1">
+               id="footer-order-66d5ef21bb045">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb045">
             <h3 class="footer-order-title">Брендбук</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание единого стиля и&nbsp;гайдлайнов для&nbsp;вашего бренда. Брендбук поможет вам поддерживать консистентность в&nbsp;дизайне и&nbsp;сообщении, что&nbsp;способствует укреплению вашей корпоративной идентичности.</div>
@@ -2221,8 +2327,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f3ce">
-        <label class="footer-order-label" for="footer-order-66d492824f3ce">
+               id="footer-order-66d5ef21bb050">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb050">
             <h3 class="footer-order-title">Айдентика</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание уникальной корпоративной идентичности, которая будет выражать вашу уникальность и&nbsp;ценности. Айдентика поможет вам подчеркнуть свою уникальность и&nbsp;привлечь аудиторию.</div>
@@ -2235,8 +2341,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f3fa">
-        <label class="footer-order-label" for="footer-order-66d492824f3fa">
+               id="footer-order-66d5ef21bb05d">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb05d">
             <h3 class="footer-order-title">UX-дизайн</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание удобного и&nbsp;интуитивного пользовательского опыта. Наши дизайнеры помогут вам сделать взаимодействие пользователей с&nbsp;вашим продуктом максимально комфортным и&nbsp;удовлетворительным.</div>
@@ -2249,8 +2355,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f418">
-        <label class="footer-order-label" for="footer-order-66d492824f418">
+               id="footer-order-66d5ef21bb06b">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb06b">
             <h3 class="footer-order-title">UI-дизайн</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание привлекательного и&nbsp;функционального пользовательского интерфейса. Наши дизайнеры учтут не&nbsp;только внешний вид, но&nbsp;и&nbsp;удобство использования вашего продукта, что&nbsp;сделает его&nbsp;более привлекательным.</div>
@@ -2263,8 +2369,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f439">
-        <label class="footer-order-label" for="footer-order-66d492824f439">
+               id="footer-order-66d5ef21bb085">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb085">
             <h3 class="footer-order-title">Product дизайн</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание дизайна для&nbsp;вашего продукта, который будет сочетать в&nbsp;себе функциональность и&nbsp;эстетику. Наш&nbsp;дизайн учтет потребности пользователей и&nbsp;поможет вам создать продукт, который будет успешным на&nbsp;рынке.</div>
@@ -2277,8 +2383,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f447">
-        <label class="footer-order-label" for="footer-order-66d492824f447">
+               id="footer-order-66d5ef21bb091">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb091">
             <h3 class="footer-order-title">Инфографика</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Визуализация информации с&nbsp;помощью информационных графиков и&nbsp;элементов. Инфографика поможет вам легко и&nbsp;наглядно представить данные и&nbsp;сообщения вашей аудитории.</div>
@@ -2291,8 +2397,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f453">
-        <label class="footer-order-label" for="footer-order-66d492824f453">
+               id="footer-order-66d5ef21bb09d">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb09d">
             <h3 class="footer-order-title">Иллюстрация</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание иллюстраций, которые помогут вам рассказать вашу историю и&nbsp;сообщить вашим клиентам. Иллюстрации придают уникальность и&nbsp;стиль вашим сообщениям и&nbsp;продуктам.</div>
@@ -2305,8 +2411,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f45f">
-        <label class="footer-order-label" for="footer-order-66d492824f45f">
+               id="footer-order-66d5ef21bb0a8">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb0a8">
             <h3 class="footer-order-title">Графический дизайн</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание графических элементов и&nbsp;материалов, которые помогут вам выделиться среди конкурентов. Графический дизайн подчеркнет уникальность и&nbsp;стиль вашего бренда.</div>
@@ -2319,8 +2425,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f46d">
-        <label class="footer-order-label" for="footer-order-66d492824f46d">
+               id="footer-order-66d5ef21bb0b4">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb0b4">
             <h3 class="footer-order-title">Гайдлайн</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание дизайн-руководства, которое поможет поддерживать единообразие в&nbsp;брендировании. Гайдлайн обеспечит правильное использование логотипа, цветов и&nbsp;шрифтов в&nbsp;ваших материалах.</div>
@@ -2333,8 +2439,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f47b">
-        <label class="footer-order-label" for="footer-order-66d492824f47b">
+               id="footer-order-66d5ef21bb0cb">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb0cb">
             <h3 class="footer-order-title">Веб-дизайн</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание уникального дизайна для&nbsp;вашего веб-сайта. Наши дизайнеры помогут вам создать привлекательный и&nbsp;функциональный дизайн, который привлечет посетителей и&nbsp;укрепит вашу онлайн-присутствие.</div>
@@ -2347,8 +2453,8 @@
 
         <div class="footer-order-item">
         <input class="footer-order-checkbox" type="checkbox"
-               id="footer-order-66d492824f489">
-        <label class="footer-order-label" for="footer-order-66d492824f489">
+               id="footer-order-66d5ef21bb0d7">
+        <label class="footer-order-label" for="footer-order-66d5ef21bb0d7">
             <h3 class="footer-order-title">3D</h3>
             <div class="footer-order-desc-container">
                 <div class="footer-order-description">Создание трехмерных моделей и&nbsp;элементов для&nbsp;ваших проектов. 3D-дизайн придаст вашим продуктам и&nbsp;материалам объем и&nbsp;реализм, что&nbsp;сделает их&nbsp;более привлекательными и&nbsp;интересными.</div>
