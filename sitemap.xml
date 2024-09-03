@@ -1,77 +1,115 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-                        <loc>https://www.leonbakadorov.com/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/about/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/legal/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/order/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/patek/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/leonbakadorov-sans/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/bugatti/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/quon/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/kareliadsp/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/careers/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/icq/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/profile/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/atmosphere/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/filter/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/calculator/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/settings/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/candidates/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/case/applications/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/about/order/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/about/philosophy/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/about/ceo/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/about/partners/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/about/career/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/about/faq/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/about/newsletter/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/about/feedback/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/about/contact/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/order/apps/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/order/design/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/order/form/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/order/it/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/order/art/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/order/music/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/legal/terms/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/legal/privacy/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/legal/cookie/</loc>
-                    </url><url>
-                        <loc>https://www.leonbakadorov.com/legal/support/</loc>
-                    </url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+    <loc>https://www.leonbakadorov.com/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/about/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/legal/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/order/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/patek/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/leonbakadorov-sans/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/bugatti/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/quon/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/kareliadsp/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/careers/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/icq/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/profile/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/atmosphere/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/filter/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/calculator/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/settings/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/candidates/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/case/applications/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/about/order/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/about/philosophy/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/about/ceo/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/about/partners/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/about/career/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/about/faq/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/about/newsletter/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/about/feedback/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/about/contact/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/order/apps/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/order/design/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/order/form/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/order/it/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/order/art/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/order/music/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/legal/terms/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/legal/privacy/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/legal/cookie/</loc>
+</url>
+<url>
+    <loc>https://www.leonbakadorov.com/legal/support/</loc>
+</url></urlset>
