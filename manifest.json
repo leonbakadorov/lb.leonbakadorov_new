@@ -1,0 +1,20 @@
+{
+  "name": "App LB",
+  "short_name": "App LB",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/small.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/big.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
